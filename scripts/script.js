@@ -8,12 +8,11 @@ document.querySelector('input[type=number]').oninvalid = function() {
   
         // se inválido, coloca mensagem de erro
         this.setCustomValidity("Adicione somente numeros, sem caracteres especiais ou letras.");
-    } else if 
+    } 
   };
+
 
   function gerar(){
       var num = document.getElementById('numero')
-      document.getElementById("resultado").innerHTML = `Seu link do Whatsapp é: ${num}`
-
-
+      document.getElementById("resultado").innerHTML = `Seu link do Whatsapp é: https://wa.me/${num}`
   }
