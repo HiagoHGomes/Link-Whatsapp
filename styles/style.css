@@ -37,7 +37,7 @@ body {
 
 .container {
     color: white;
-    height: 350px;
+    height: auto;
     margin: auto;
     width: 850px;
     background-color: rgba(38, 211, 102, 0.5);
@@ -61,6 +61,8 @@ input {
     font-size: 20px;
     padding: 20px;
     border-radius: 15px;
+    border: 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -68,6 +70,17 @@ button {
     padding: 10px;
     border-radius: 15px;
     color: white;
-    background-color: rgb( 38, 211, 102);
+    background-color: #26d366;
     border: 0;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #26d366;
 }
