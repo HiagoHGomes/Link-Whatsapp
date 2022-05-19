@@ -106,3 +106,51 @@ a:hover {
     width: 750px;
     border-radius: 15px;
 }
+
+@media (min-width: 740px) and (max-width: 999px) {
+
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: 750px;
+        /* background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; */
+
+    }
+    .container {
+        width: 425px;
+        height:550px;
+    }
+
+    #res {
+        width: 375px;
+    }
+}
+
+
+
+@media (min-width: 550px) and (max-width: 739px) {
+
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: 750px;
+    }
+
+    .message {
+        font-size: 30px;
+        width: 350px;
+    }
+    
+    .container {
+        width: 425px;
+        height:550px;
+    }
+
+    #res {
+        width: 375px;
+    }
+
+}
+
+
