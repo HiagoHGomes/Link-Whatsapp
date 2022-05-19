@@ -130,7 +130,7 @@ a:hover {
 
 
 
-@media (min-width: 550px) and (max-width: 739px) {
+@media(min-width: 600px) and (max-width: 739px) {
 
     body {
         background-image: url(../images/wpp-bg-resp.jpg);
@@ -152,5 +152,153 @@ a:hover {
     }
 
 }
+
+@media(min-width: 500px) and (max-width: 580px) {
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: auto;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+    }
+    .message {
+        font-size: 30px;
+        width: 350px;
+    }
+    
+    .container {
+        width: 350px;
+        height:550px;
+    }
+
+    #res {
+        width: 300px;
+    }
+
+    input {
+        width: 250px;
+    }
+}
+
+
+
+
+@media (min-width: 390px) and (max-width: 499px) {
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: auto;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+    }
+
+    .message {
+        margin-left: -40px;
+        font-size: 28px;
+        width: 325px;
+    }
+    
+    .wpp {
+        padding: 10px;
+    }
+
+    .container {
+        margin-left: -40px;
+        width: 300px;
+        height:550px;
+    }
+
+    #res {
+
+        width: 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
+
+
+
+@media(max-width: 389px) {
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+    }
+
+    .message {
+        margin-left: -70px;
+        font-size: 28px;
+        width: 325px;
+    }
+    
+    .wpp {
+        padding: 10px;
+    }
+
+    .container {
+        margin-left: -60px;
+        width: 300px;
+        height:550px;
+    }
+
+    #res {
+
+        width: 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
+
+@media(max-width: 360px) {
+    body {
+        background-image: url(../images/wpp-bg-resp.jpg);
+        height: auto;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+
+    }
+
+    .message {
+        margin-left: -85px;
+        font-size: 28px;
+        width: 325px;
+    }
+    
+    .wpp {
+        padding: 10px;
+    }
+
+    .container {
+        margin-left: -75px;
+        width: 300px;
+        height:550px;
+    }
+
+    #res {
+
+        width: 200px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
+
 
 
