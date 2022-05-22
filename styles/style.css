@@ -50,7 +50,7 @@ body {
     
 }
 
-h2, form, #button {
+h2, form, #button, #link {
     text-align: center;
     font-size: 30px;
 }
@@ -91,21 +91,34 @@ input[type=number] {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+
+
+
 a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+a:hover, #link:hover {
     text-decoration: underline;
     color: #26d366;
 }
 
-#res {
+#res{
     color: black;
     background-color: antiquewhite;
-    width: 750px;
-    border-radius: 15px;
+    width: 400px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 0;
+}
+
+#link {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: antiquewhite;
+    width: 400px;
+    border-radius: 0 0 15px 15px;
 }
 
 @media (min-width: 740px) and (max-width: 999px) {

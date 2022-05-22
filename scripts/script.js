@@ -23,5 +23,7 @@ document.querySelector('input[type=number]').oninvalid = function() {
     var res = document.getElementById('res')
     var n1 = Number(numero.value)
     var wpp = n1
-    res.innerHTML = `Seu link do Whatsapp é: https://wa.me/55${n1}`
+    var link = document.getElementById('link')
+    res.innerHTML = `Seu link do Whatsapp é:`;
+    link.innerHTML =  `https://wa.me/55${n1}`;
   }
