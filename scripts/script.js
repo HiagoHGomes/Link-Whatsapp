@@ -27,3 +27,14 @@ document.querySelector('input[type=number]').oninvalid = function() {
     res.innerHTML = `Seu link do Whatsapp é:`;
     link.innerHTML =  `https://wa.me/55${n1}`;
   }
+
+  function copiar() {
+    var link = document.getElementById('link');
+
+    link.select();
+    link.setSelectionRange(0, 99999);
+
+    navigator.clipboard.writeText(link.value);
+
+    alert(`URL copiada: ${link.value}`);
+}
