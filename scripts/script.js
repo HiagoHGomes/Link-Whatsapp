@@ -13,6 +13,12 @@ document.querySelector('input[type=number]').oninvalid = function() {
 
 
   function gerar() {
+    let url = document.getElementById("number").value;
+    if(!url) {
+      alert("Campo vazio. Insira um numero de Whatsapp para continuar.")
+      return;
+    }
+
     var numero = document.querySelector('input#number')
     var res = document.getElementById('res')
     var n1 = Number(numero.value)

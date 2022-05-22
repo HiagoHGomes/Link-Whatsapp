@@ -79,8 +79,9 @@ input[type=number] {
 
 
 #button {
+    text-align: center;
     cursor: pointer;
-    width: 100px;
+    width: 120px;
     margin: 20px;
     padding: 10px;
     border-radius: 15px;
